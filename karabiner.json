@@ -80,7 +80,7 @@
                         ]
                     },
                     {
-                        "description": "右Optionでカーソルキーモード",
+                        "description": "右 Option でカーソルキーモード",
                         "manipulators": [
                             {
                                 "from": {
@@ -161,7 +161,7 @@
                         ]
                     },
                     {
-                        "description": "マウスの 3 ボタンで Commnd + Shift + Click",
+                        "description": "マウスの 3 ボタンで Command + Shift + Click",
                         "manipulators": [
                             {
                                 "from": {
@@ -276,7 +276,7 @@
                         ]
                     },
                     {
-                        "description": "マウスの 4 or 5 ボタンと option で Mission control の制御",
+                        "description": "マウスの 4 or 5 ボタンと Option で Mission control の制御 or Launchpad の表示",
                         "manipulators": [
                             {
                                 "from": {
@@ -308,10 +308,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "down_arrow",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
+                                        "key_code": "f10"
                                     }
                                 ],
                                 "type": "basic"
@@ -319,7 +316,7 @@
                         ]
                     },
                     {
-                        "description": "マウスの 4 or 5 ボタンと Command でデスクトップの表示 or Launchpad の表示",
+                        "description": "マウスの 4 or 5 ボタンと Command でデスクトップの表示 or アプリケーションウィンドウの表示",
                         "manipulators": [
                             {
                                 "from": {
@@ -348,7 +345,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "f10"
+                                        "key_code": "down_arrow",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
