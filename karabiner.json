@@ -21,13 +21,8 @@
                                 "from": {
                                     "key_code": "left_command",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
+                                        "optional": ["any"]
                                     }
-                                },
-                                "parameters": {
-                                    "basic.to_if_held_down_threshold_milliseconds": 60
                                 },
                                 "to": [
                                     {
@@ -40,9 +35,24 @@
                                         "key_code": "japanese_eisuu"
                                     }
                                 ],
-                                "to_if_held_down": [
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f1",
+                                    "modifiers": {
+                                        "mandatory": ["left_shift"]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "key_code": "left_command"
+                                        "key_code": "left_command",
+                                        "lazy": true
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "japanese_eisuu"
                                     }
                                 ],
                                 "type": "basic"
@@ -51,13 +61,8 @@
                                 "from": {
                                     "key_code": "right_command",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
+                                        "optional": ["any"]
                                     }
-                                },
-                                "parameters": {
-                                    "basic.to_if_held_down_threshold_milliseconds": 60
                                 },
                                 "to": [
                                     {
@@ -70,9 +75,24 @@
                                         "key_code": "japanese_kana"
                                     }
                                 ],
-                                "to_if_held_down": [
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f2",
+                                    "modifiers": {
+                                        "mandatory": ["left_shift"]
+                                    }
+                                },
+                                "to": [
                                     {
-                                        "key_code": "right_command"
+                                        "key_code": "right_command",
+                                        "lazy": true
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "japanese_kana"
                                     }
                                 ],
                                 "type": "basic"
@@ -459,7 +479,6 @@
             ],
             "name": "Default profile",
             "selected": true,
-            "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "country_code": 0
             }
