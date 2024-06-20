@@ -437,6 +437,28 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "再生/一時停止",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    },
+                                    "key_code": "p"
+                                },
+                                "to_after_key_up": [
+                                    {
+                                        "key_code": "play_or_pause"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
