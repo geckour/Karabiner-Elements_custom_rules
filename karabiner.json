@@ -204,7 +204,7 @@
                                 "from": {
                                     "pointing_button": "button3"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "modifiers": [
                                             "left_shift"
@@ -239,7 +239,7 @@
                                 "from": {
                                     "pointing_button": "button5"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "right_arrow",
                                         "modifiers": [
@@ -253,7 +253,7 @@
                                 "from": {
                                     "pointing_button": "button4"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "left_arrow",
                                         "modifiers": [
@@ -277,7 +277,7 @@
                                     },
                                     "pointing_button": "button5"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "close_bracket",
                                         "modifiers": [
@@ -296,7 +296,7 @@
                                     },
                                     "pointing_button": "button4"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "open_bracket",
                                         "modifiers": [
@@ -320,7 +320,7 @@
                                     },
                                     "pointing_button": "button5"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "f11"
                                     }
@@ -336,7 +336,7 @@
                                     },
                                     "pointing_button": "button4"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "down_arrow",
                                         "modifiers": [
@@ -360,7 +360,7 @@
                                     },
                                     "pointing_button": "button5"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "up_arrow",
                                         "modifiers": [
@@ -379,7 +379,7 @@
                                     },
                                     "pointing_button": "button4"
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "f10"
                                     }
@@ -401,7 +401,7 @@
                                         ]
                                     }
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "eject",
                                         "modifiers": [
@@ -426,7 +426,7 @@
                                         ]
                                     }
                                 },
-                                "to": [
+                                "to_after_key_up": [
                                     {
                                         "key_code": "eject",
                                         "modifiers": [
